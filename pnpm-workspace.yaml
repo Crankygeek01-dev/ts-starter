@@ -1,0 +1,5 @@
+# pnpm build-script approvals. esbuild ships a prebuilt native binary via its
+# @esbuild/<platform> optional dependency; allowing its install script clears
+# pnpm's "ignored builds" gate so npm scripts can run.
+allowBuilds:
+  esbuild: true
