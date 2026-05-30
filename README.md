@@ -1,5 +1,7 @@
 # ts-starter
 
+[![CI](https://github.com/Crankygeek01-dev/ts-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/Crankygeek01-dev/ts-starter/actions/workflows/ci.yml)
+
 A minimal, modern TypeScript starter: ESM, Node 24, `tsx` for dev, `vitest` for tests,
 ESLint 9 (flat config) + Prettier.
 
