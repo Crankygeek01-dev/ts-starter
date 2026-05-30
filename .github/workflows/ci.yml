@@ -8,10 +8,6 @@ on:
 permissions:
   contents: read
 
-env:
-  # Run bundled JS actions under Node 24; their Node 20 runtime is removed 2026-06-16.
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
